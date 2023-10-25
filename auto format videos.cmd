@@ -65,7 +65,7 @@ for /d /r %%D in (.) do (
                 if !sizeBefore! equ !sizeAfter! (
                   title !title! ^| %cd%\%%f
                   start "" "auto format videos (set as idle priority).cmd"
-                  %avidemux_cli% --nogui --load "%%f" --run "%~dp0settings.py" --save "%%~nf.formating.mp4" --quit
+                  %avidemux_cli% --nogui --load "%%f" --run "%~dp0auto format videos (settings).py" --save "%%~nf.formating.mp4" --quit
                   if errorlevel 0 (
                     if exist "%%~nf.formated.mp4" del "%%~nf.formated.mp4"
                     ren "%%~nf.formating.mp4" "%%~nf.formated.mp4"
