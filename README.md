@@ -1,4 +1,4 @@
-## Table of contents
+## Contents
 * [Description](#description)
 * [Dependency](#dependency)
 * [Setup](#setup)
