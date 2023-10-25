@@ -6,7 +6,7 @@
 
 
 ## Description
-Detects new video files in a folder with its subfolders and processes each video with a custom settings file using avidemux. The settings file is preset to the codecs x264 and aac. x264 is set to "placebo" speed for highest detail per bit, can be set to "faster", "medium" or "slow" with minimal quality loss but much better encoding speed. It uses free CPU time to encode at higher quality than the GPU encoder can, see [x264 encoding is still the best, slow isn't better and NVENC is second](https://www.reddit.com/r/Twitch/comments/c8ec2h/guide_x264_encoding_is_still_the_best_slow_isnt/?rdt=38004).
+Detects new video files in a folder with its subfolders and processes each video with a custom settings file using avidemux. The settings file is preset to the codecs x264 and aac. It uses free CPU time to encode at higher quality than the GPU encoder can, see [x264 encoding is still the best, slow isn't better and NVENC is second](https://www.reddit.com/r/Twitch/comments/c8ec2h/guide_x264_encoding_is_still_the_best_slow_isnt/?rdt=38004).
 
 ## Dependency
 - [Avidemux VC++ (v2.8.0 or newer)](https://sourceforge.net/projects/avidemux/files/avidemux/2.8.1/Avidemux_2.8.1%20VC%2B%2B%2064bits.exe/download)
