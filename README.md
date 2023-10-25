@@ -6,7 +6,7 @@
 
 
 ## Description
-Detect new video files in root- and subdirectories and process each video with given custom settings file for avidemux. Provided settings file uses x264 & aac codec.
+Detect new video files in root- and subdirectories and process each video with given custom settings file for avidemux. Settings file si preset as x264 & aac codecs, uses free cpu time to encode in higher quality than gpu encoded, see [reddit.com | x264 encoding is still the best, slow isn't better and NVENC is second](https://www.reddit.com/r/Twitch/comments/c8ec2h/guide_x264_encoding_is_still_the_best_slow_isnt/?rdt=38004).
 
 ## Dependencies
 - [Avidemux VC++ (v2.8.0 or newer)](https://sourceforge.net/projects/avidemux/files/avidemux/2.8.1/Avidemux_2.8.1%20VC%2B%2B%2064bits.exe/download)
