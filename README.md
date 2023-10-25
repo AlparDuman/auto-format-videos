@@ -2,7 +2,7 @@
 * [Description](#description)
 * [Dependency](#dependency)
 * [Setup](#setup)
-* [Set up as automatic task in background](#set-up-as-automatic-task-in-background)
+* [Set up as automatic task in background](#set-up-as-an-automatic-task-in-the-background)
 
 
 ## Description
