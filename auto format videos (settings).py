@@ -3,7 +3,7 @@
 
 adm = Avidemux()
 adm.setHDRConfig(1, 1, 1, 1, 0)
-adm.videoCodec("x264", "useAdvancedConfiguration=False", "general.params=AQ=20", "general.threads=0", "general.preset=placebo", "general.tuning=none", "general.profile=high", "general.fast_decode=False", "general.zero_latency=False"
+adm.videoCodec("x264", "useAdvancedConfiguration=False", "general.params=AQ=20", "general.threads=0", "general.preset=faster", "general.tuning=none", "general.profile=high", "general.fast_decode=False", "general.zero_latency=False"
 , "general.fast_first_pass=true", "general.blueray_compatibility=False", "general.fake_interlaced=False", "level=51", "vui.sar_height=1", "vui.sar_width=1", "vui.overscan=0", "vui.vidformat=5", "vui.fullrange=False"
 , "vui.colorprim=2", "vui.transfer=2", "vui.colmatrix=2", "vui.chroma_loc=0", "MaxRefFrames=3", "MinIdr=25", "MaxIdr=250", "i_scenecut_threshold=40", "intra_refresh=False", "MaxBFrame=3", "i_bframe_adaptive=1"
 , "i_bframe_bias=0", "i_bframe_pyramid=2", "b_deblocking_filter=True", "i_deblocking_filter_alphac0=0", "i_deblocking_filter_beta=0", "cabac=True", "interlaced=False", "constrained_intra=False", "tff=True"
