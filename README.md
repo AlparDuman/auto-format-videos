@@ -1,7 +1,7 @@
 ## Table of contents
 * [Description](#description)
 * [Dependency](#dependencies)
-* [How to use](#how-to-use)
+* [Setup](#setup)
 * [Set up as automatic task in background](#set-up-as-automatic-task-in-background)
 
 
