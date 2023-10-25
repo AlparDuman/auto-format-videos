@@ -19,9 +19,9 @@ Detects new video files in a folder with its subfolders and processes each video
 - If you have set up the process as a background task, you must end it via the Windows Task Scheduler!
 
 ## Set up as an automatic task in the background
-- Recomended | Use Windows Task Scheduler (invisible in background):
+- Use Windows Task Scheduler (Recommended & invisible in background):
   - Create a new task that launches "auto format videos.cmd" in the folder where it is located
   - Set trigger "at startup" or "at login"
-- Alternative | Shortcut in startup folder (visible in taskbar):
+- Shortcut in startup folder (Alternative & visible in taskbar):
   - Press [WIN] + [R] and type "shell:startup".
   - Create a shortcut of "auto format videos.cmd", configure it to be launched minimized and move it to the opened startup folder
