@@ -6,7 +6,7 @@
 
 
 ## Description
-Detects new video files in a folder and its subfolders, processes each video with a custom settings file using avidemux, and deletes the source video file if successful. The settings file is preset to the codecs x264 and aac. For better quality, change the "general.preset" from "faster" to a lower setting such as "fast", "medium", "slow", "slower", "veryslow", or "placebo" in "auto format videos (settings).py", the slower the speed the higher the quality. It uses free CPU time to encode at higher quality than the GPU encoder can, see [x264 encoding is still the best, slow isn't better and NVENC is second](https://www.reddit.com/r/Twitch/comments/c8ec2h/guide_x264_encoding_is_still_the_best_slow_isnt/?rdt=38004).
+Detects new video files in a folder and its subfolders, processes each video with a custom settings file using avidemux, and deletes the source video file if successful. The settings file is preset to the codecs x264 (more devices can decode x264 via hardware acceleration than x265 via hardware acceleration) and aac (up to 8 stereo channels with -3db normalization). For better quality, change the "general.preset" from "faster" to a lower setting such as "fast", "medium", "slow", "slower", "veryslow", or "placebo" in "auto format videos (settings).py", the slower the speed the higher the quality. It uses free CPU time to encode at higher quality than the GPU encoder can, see [x264 encoding is still the best, slow isn't better and NVENC is second](https://www.reddit.com/r/Twitch/comments/c8ec2h/guide_x264_encoding_is_still_the_best_slow_isnt/?rdt=38004).
 
 ## Dependency
 - [Avidemux VC++ (v2.8.0 or newer)](https://sourceforge.net/projects/avidemux/files/avidemux/2.8.1/Avidemux_2.8.1%20VC%2B%2B%2064bits.exe/download)
